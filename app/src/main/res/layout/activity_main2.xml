@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity2"
+        tools:ignore="HardcodedText"
+        >
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Enter Name and Position"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <EditText
+            android:id="@+id/etxt1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/txt1"
+            android:ems="15"
+            android:hint="Enter Name"
+            tools:layout_editor_absoluteX="16dp"
+ app:layout_constraintStart_toStartOf="@id/txt1"
+            /><EditText
+        android:id="@+id/etxt2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/etxt1"
+        android:ems="15"
+        android:hint="Enter position"
+        tools:layout_editor_absoluteX="16dp"
+        app:layout_constraintStart_toStartOf="@id/etxt1"
+        />
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Enter college Name "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etxt2"
+            />
+
+        <EditText
+            android:id="@+id/etxt3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            android:ems="15"
+            android:hint="Enter Education"
+            tools:layout_editor_absoluteX="16dp"
+            app:layout_constraintStart_toStartOf="@id/txt1"
+            /><EditText
+        android:id="@+id/etxt4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/etxt3"
+        android:ems="15"
+        android:hint="Enter college name"
+        tools:layout_editor_absoluteX="16dp"
+        app:layout_constraintStart_toStartOf="@id/etxt1"
+        /><EditText
+        android:id="@+id/etxt5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/etxt4"
+        android:ems="15"
+        android:hint="Enter year"
+        tools:layout_editor_absoluteX="16dp"
+        app:layout_constraintStart_toStartOf="@id/etxt1"
+        />
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Enter course detail"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etxt5"
+            />
+
+        <EditText
+            android:id="@+id/etxt6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/txt3"
+            android:ems="15"
+            android:hint="Enter organisation name"
+            tools:layout_editor_absoluteX="16dp"
+            app:layout_constraintStart_toStartOf="@id/txt1"
+            />
+        <EditText
+        android:id="@+id/etxt7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/etxt6"
+        android:ems="15"
+        android:hint="Enter course name"
+        tools:layout_editor_absoluteX="16dp"
+        app:layout_constraintStart_toStartOf="@id/etxt1"
+        /><EditText
+        android:id="@+id/etxt8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/etxt7"
+        android:ems="15"
+        android:hint="Enter year"
+        tools:layout_editor_absoluteX="16dp"
+        app:layout_constraintStart_toStartOf="@id/etxt1"
+        />
+        <EditText
+            android:id="@+id/etxt9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/etxt8"
+            android:ems="15"
+            android:hint="Enter github id"
+            tools:layout_editor_absoluteX="16dp"
+            app:layout_constraintStart_toStartOf="@id/etxt1"
+            />
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/purple_200"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginTop="20dp"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:layout_constraintTop_toBottomOf="@id/etxt9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
